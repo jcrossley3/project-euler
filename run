@@ -1,0 +1,4 @@
+#!/bin/sh
+
+for i in $(ls *.rb); do ruby $i; done
+
